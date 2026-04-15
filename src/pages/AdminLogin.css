@@ -1,0 +1,111 @@
+.admin-login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.admin-login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.admin-login-box h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 8px;
+  letter-spacing: -0.025em;
+}
+
+.error-message {
+  padding: 10px;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-login-box .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.admin-login-box label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.admin-login-box input {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.admin-login-box input:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.admin-login-box button[type="submit"] {
+  background: #6366f1;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: none;
+  margin-top: 8px;
+}
+
+.admin-login-box button[type="submit"]:hover {
+  background: #4f46e5;
+}
+
+.admin-login-box button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.toggle-form {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.toggle-form button {
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.toggle-form button:hover {
+  text-decoration: underline;
+}
