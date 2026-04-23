@@ -129,7 +129,10 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({
       <aside className={`adm-sidebar ${isSidebarOpen ? 'open' : ''} ${isSidebarCollapsed ? 'collapsed' : ''}`}>
         <div className="adm-logo-area">
           <div className="adm-logo-icon">HP</div>
-          <span className="adm-logo-text">HotelConsulting Admin</span>
+          <div className="adm-logo-text">
+            <span>HotelConsulting</span>
+            <span className="subtitle">Admin</span>
+          </div>
         </div>
 
         <nav className="adm-nav">

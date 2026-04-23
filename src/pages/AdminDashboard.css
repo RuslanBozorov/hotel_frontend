@@ -181,9 +181,21 @@
 
 .adm-logo-text {
   font-weight: 800;
-  font-size: 1.25rem;
-  letter-spacing: -0.03em;
-  color: var(--adm-text-main);
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.adm-logo-text .subtitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--adm-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2px;
 }
 
 .adm-nav {
